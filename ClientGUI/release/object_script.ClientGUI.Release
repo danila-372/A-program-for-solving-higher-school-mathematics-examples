@@ -1,0 +1,11 @@
+release/appcontroller.o
+release/connection.o
+release/funcforclient.o
+release/loginview.o
+release/main.o
+release/mainwindow.o
+release/taskview.o
+release/moc_appcontroller.o
+release/moc_loginview.o
+release/moc_mainwindow.o
+release/moc_taskview.o
