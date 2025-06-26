@@ -1,0 +1,83 @@
+<!--
+///
+/// \file taskview.ui
+/// \brief XML-описание главного окна выбора заданий
+/// \details Содержит описание следующих элементов интерфейса:
+/// - 4 кнопки для выбора типа заданий (алгебра, геометрия и др.)
+/// - Основные параметры окна (размеры, заголовок)
+/// \note Файл автоматически генерируется Qt Designer
+/// \warning Ручные изменения могут быть перезаписаны при обновлении в Qt Designer
+/// \see TaskView Класс, реализующий логику работы с данным интерфейсом
+///
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TaskView</class>
+ <widget class="QWidget" name="TaskView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_task1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задание 1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_task2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>80</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задание 2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_task3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задание 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_task4">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задание 4</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
